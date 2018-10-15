@@ -185,7 +185,7 @@ show_regex(number_pattern)
 re2_replace(string, pattern, rewrite)
 ```
 
-Searches the string "input string" for the occurence(s) of a substring that matches 'pattern' and replaces the found substrings with "rewrite text".
+Searches the string "input string" for the occurrence(s) of a substring that matches 'pattern' and replaces the found substrings with "rewrite text".
 
 ``` r
 input_string = "this is just one test";
@@ -237,7 +237,7 @@ re2_extract("test@me.com", "(.*)@([^.]*)")
 
 We can create a regular expression object (RE2 object) from a string. It will reduce the time to parse the syntax of the same pattern.
 
-And this will also give us more option for the pattern. run `help(re2)` to get more detials.
+And this will also give us more option for the pattern. run `help(re2)` to get more details.
 
 ``` r
 regexp = re2("test",case_sensitive = FALSE)
